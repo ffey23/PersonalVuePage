@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ffey23/PersonalVuePage/issues"
   },
-  "homepage": "https://github.com/ffey23/PersonalVuePage#readme"
+  "homepage": "https://github.com/ffey23/PersonalVuePage#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
