@@ -5,6 +5,6 @@
 </template>
 <style>
 #app {
-    text-align: center;
+  text-align: center;
 }
 </style>
