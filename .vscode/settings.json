@@ -1,4 +1,8 @@
 {
   "editor.formatOnSave": true,
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  }
 }
