@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/ffey23/PersonalVuePage#readme",
   "dependencies": {
+    "lodash": "^4.17.20",
     "vue": "^2.6.12",
     "vue-router": "^3.5.1"
   },
