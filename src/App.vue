@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <h1 class="title">J. Doe's Personal APP</h1>
+    <header>
+      <h1 class="title">J. Doe's Personal APP</h1>
+      <p class="subtitle">NOT-KNOWING IS TRUE KNOWLEDGE</p>
+    </header>
     <Navigation :links="links" />
     <router-view />
   </div>
@@ -19,12 +22,46 @@ export default {
   }
 }
 </script>
+<style scoped>
+.title {
+  font-style: oblique;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 13px;
+}
+
+.subtitle {
+  letter-spacing: 2.5px;
+  font-family: Helvetica sans-serif;
+  font-size: 13px;
+  color: #4caf50;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 7px;
+  margin-left: 7px;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 32px;
+    margin: 15px 0 10px 15px;
+  }
+
+  .subtitle {
+    margin-right: 20px;
+    margin-top: 34px;
+  }
+}
+</style>
 <style>
 body {
   margin: 0;
   position: relative;
-}
-.title {
-  text-align: center;
 }
 </style>
