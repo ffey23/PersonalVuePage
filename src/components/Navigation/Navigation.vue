@@ -80,7 +80,7 @@ a.router-link-exact-active {
 }
 .navigation__desktop-nav a {
   display: block;
-  padding: 10px 15px 9px;
+  padding: 10px 15px 8px;
 }
 
 /* burger button styling */
