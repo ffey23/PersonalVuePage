@@ -20,8 +20,9 @@ export default {
 }
 </script>
 <style>
-nav {
-  text-align: center;
+body {
+  margin: 0;
+  position: relative;
 }
 .title {
   text-align: center;
