@@ -32,7 +32,6 @@ export default {
 
 .subtitle {
   letter-spacing: 2.5px;
-  font-family: Helvetica sans-serif;
   font-size: 13px;
   color: #4caf50;
   font-weight: bold;
