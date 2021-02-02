@@ -1,8 +1,9 @@
 const path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
+require('babel-polyfill')
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: ['babel-polyfill', './src/index.js'],
   module: {
     rules: [
       {
