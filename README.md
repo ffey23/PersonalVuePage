@@ -1,6 +1,6 @@
 # PersonalVuePage
 
-This is My personal page made in Vue and Express. You can contact me by sending a message.
+This is my personal page made in Vue and Express. You can contact me by sending a message.
 
 ## Runing The App
 
