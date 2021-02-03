@@ -47,18 +47,18 @@ export default {
     async postContactData() {
       try {
         this.submitting = true
-        await this.$axios.post('API/contact', this.form)
+        const respData = (await this.$axios.post('API/contact', this.form)).data
         this.$swal({
           icon: 'success',
-          title: 'Message sent!',
-          text: "Thank you for contacting me. I'll get in touch with you soon."
+          title: 'Success!',
+          text: respData.msg
         })
         this.submitting = false
       } catch (error) {
         this.$swal({
           icon: 'error',
           title: 'Error! :(',
-          text: "Message wasn't sent. Please try again later."
+          text: JSON.stringify(error.response.data.errors)
         })
         this.submitting = false
       }
