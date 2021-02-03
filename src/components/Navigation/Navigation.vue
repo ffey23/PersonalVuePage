@@ -1,18 +1,20 @@
 <template>
   <div class="navigation">
-    <div class="navigation__mobile-nav">
-      <Slide :close-on-navigation="true">
-        <router-link v-for="link in links" :key="link.to" :to="link.to">{{
-          link.title
-        }}</router-link>
-      </Slide>
-    </div>
-    <div class="navigation__desktop-nav">
-      <nav>
-        <router-link v-for="link in links" :key="link.to" :to="link.to">{{
-          link.title.toUpperCase()
-        }}</router-link>
-      </nav>
+    <div class="container">
+      <div class="navigation__mobile-nav">
+        <Slide :close-on-navigation="true">
+          <router-link v-for="link in links" :key="link.to" :to="link.to">{{
+            link.title
+          }}</router-link>
+        </Slide>
+      </div>
+      <div class="navigation__desktop-nav">
+        <nav>
+          <router-link v-for="link in links" :key="link.to" :to="link.to">{{
+            link.title.toUpperCase()
+          }}</router-link>
+        </nav>
+      </div>
     </div>
   </div>
 </template>

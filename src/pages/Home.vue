@@ -37,11 +37,6 @@
   </div>
 </template>
 <style scoped>
-.container {
-  max-width: 1140px;
-  margin: auto;
-}
-
 .title {
   text-align: center;
   font-size: 30px;

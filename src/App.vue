@@ -59,6 +59,11 @@ export default {
 }
 </style>
 <style>
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
 body {
   margin: 0;
   position: relative;
