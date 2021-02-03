@@ -55,10 +55,14 @@ export default {
         })
         this.submitting = false
       } catch (error) {
+        let errorText = 'Something went wrong. Please try again later!'
+        if (error.response) {
+          errorText = JSON.stringify(error.response.data.errors)
+        }
         this.$swal({
           icon: 'error',
           title: 'Error! :(',
-          text: JSON.stringify(error.response.data.errors)
+          text: errorText
         })
         this.submitting = false
       }
