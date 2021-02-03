@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <h1 class="title">J. Doe's Personal APP</h1>
+      <h1 class="title">F. Fey's Personal APP</h1>
       <p class="subtitle">NOT-KNOWING IS TRUE KNOWLEDGE</p>
     </header>
     <Navigation :links="links" />
