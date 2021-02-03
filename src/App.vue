@@ -58,6 +58,7 @@ export default {
   }
 }
 </style>
+// global styles for app goes here
 <style>
 .container {
   max-width: 1140px;
