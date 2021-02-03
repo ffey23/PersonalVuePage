@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <h1 class="title">J. Doe's Personal APP</h1>
+      <h1 class="title">F. Fey's Personal APP</h1>
       <p class="subtitle">NOT-KNOWING IS TRUE KNOWLEDGE</p>
     </header>
     <Navigation :links="links" />
@@ -58,7 +58,13 @@ export default {
   }
 }
 </style>
+// global styles for app goes here
 <style>
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
 body {
   margin: 0;
   position: relative;
